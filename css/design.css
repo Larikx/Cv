@@ -1,0 +1,567 @@
+a {
+    text-decoration: none;
+    
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.introduce {
+    margin-top: 10%;
+    margin-left: 8%;
+    float: inline-start;
+    color: white;
+    font-size: 1.2em;
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+   
+}
+.nav-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.nav-bar .nav-links ul {
+    display: flex;
+
+}
+
+.nav-bar .nav-links ul li {
+  margin: 0 30px;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.main-title-link {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+}
+
+.main-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    padding-top: 20%;
+    padding-left: 50%;
+    font-size: 5em;
+    margin: 0;
+    padding-bottom: 25%;
+    padding-top: 10%;
+   
+}
+.pc {
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.menu-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.menu-link:hover {
+    opacity: 80%;
+}
+
+.menu-link.active{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 24px;
+}
+
+#body-first-page {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    padding-bottom: 280px;
+}
+.me {
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    transform-origin: 65% 75%;
+    transition: transform 0.5s, filter .2s ease-out;
+    float: left     ;
+}
+
+.me:hover {
+    transform: scale(1.2);
+}
+#section-moi {
+    background-color: rgb(124, 113, 113);
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 9%;
+  
+    
+   
+}
+
+#title-moi {
+    background-color: rgb(124, 113, 113);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.qualif {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 2%;
+    margin-left:  42%;
+    margin-right: auto;
+    width: 20%;
+}
+
+.qualif-container {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background: white;
+    margin-top: 5%;
+}
+
+
+
+.qualif-card {
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+}
+
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background-color: white;
+   
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+ 
+}
+/* Qualif container*/
+.qualif-container-1 .thefront {
+    background-color: rgb(227, 93, 27);
+    color:white;
+}
+.qualif-container-2 .thefront {
+    background-color: rgb(27, 117, 115);
+    color:white;
+}
+.qualif-container-3 .thefront {
+    background-color: rgb(5, 1, 43);
+    color:white;
+}
+
+.qualif-container-1 .theback {
+    color:black;
+    border: rgb(227, 93, 27) solid 2px;
+}
+.qualif-container-2  .theback {
+    color:black;
+    border: rgb(27, 117, 115) solid 2px;
+}
+.qualif-container-3 .theback {
+    color:black;
+    border: rgb(5, 1, 43) solid 2px;
+}
+
+
+.qualif-container-1 .theback p {
+    color:rgb(227, 93, 27) ;
+}
+.qualif-container-2 .theback p {
+    color:rgb(27, 117, 115)  ;
+}
+.qualif-container-3 .theback p {
+    color:rgb(5, 1, 43) ;
+}
+
+
+
+
+/* Compétnece container*/
+
+.competence {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-left:  42%;
+    margin-right: auto;
+    width: 20%;
+}
+
+.exp {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-left:  36%;
+    margin-right: auto;
+    width: 40%;
+}
+
+.exp-prof {
+    display: flex;
+    
+}
+.datetime {
+    margin-left: 20%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.exp-prof h3 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 1.5%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+
+
+/*  Competences front */
+.competences-container-1 .thefront {
+    background-color: rgb(227, 93, 27);
+    color:white;
+}
+.competences-container-2 .thefront {
+    background-color: rgb(27, 117, 115);
+    color:white;
+}
+.competences-container-3 .thefront-pc {
+    background-color: rgb(5, 1, 43);
+    color:white;
+}
+.competences-container-3 .thefront{
+    background-color: rgb(5, 1, 43);
+    color:white;
+}
+.thefront-pc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+ 
+}
+
+
+/*  Competences back */
+.competences-container-1 .theback {
+    color:black;
+    border: rgb(227, 93, 27) solid 2px;
+}
+.competences-container-2  .theback {
+    color:black;
+    border: rgb(27, 117, 115) solid 2px;
+}
+.competences-container-3 .theback-pc {
+    color:black;
+    border: rgb(5, 1, 43)solid 2px;
+}
+.competences-container-3 .theback {
+    color:black;
+    border: rgb(5, 1, 43)solid 2px;
+}
+
+
+/*  Competences back Text */
+.competences-container-1 .theback p {
+    color:rgb(227, 93, 27) ;
+}
+.competences-container-2 .theback p {
+    color:rgb(27, 117, 115) ;
+}
+.competences-container-3 .theback-pc p {
+    color:rgb(5, 1, 43) ;
+}
+.competences-container-3 .theback p {
+    color:rgb(5, 1, 43) ;
+}
+
+
+
+
+
+.thefront h3  {
+    margin-top: 50%;
+    margin-left: 5%;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.thefront-pc h3  {
+    margin-top: 30%;
+    margin-left: 5%;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    
+    transform: rotateY(180deg);
+}
+.theback-pc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    
+    transform: rotateY(180deg);
+}
+
+
+.theback p {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2%;
+    padding-top: 30%;
+   
+}
+
+.theback-pc p {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2%;
+    padding-top: 20%;
+   
+}
+
+
+/* Work */
+
+.work {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-left:  41%;
+    margin-right: auto;
+    width: 40%;
+}
+.work p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.work-1 p {
+    margin-left: 5%;
+}
+.work-1 {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.ligne-work {
+    width: 75%;
+    margin-top: 2%;
+}
+.image-work {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 25%;
+    padding-bottom: 5%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: cover;
+    background-size: cover;
+}
+.image-work-1 {
+    background-image: url(../img/production.jpg);
+    
+}
+.image-work-1:hover {
+    box-shadow:  0 0 0 300px rgba(5, 1, 43, 0.679) inset ;
+}
+.image-work-2 {
+    background-image: url(../img/photoshop.jpg);
+
+}
+.image-work-2:hover {
+    box-shadow:  0 0 0 300px rgba(27, 117, 116, 0.747) inset ;
+}
+.image-work-3 {
+    background-image: url(../img/retouche.jpg);
+   
+}
+.image-work-3:hover {
+    box-shadow:  0 0 0 300px rgba(218, 76, 5, 0.681) inset;
+}
+
+.image-work-text {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+   
+    padding-top: 20%;
+    color: white;
+    width: 100%;
+}
+
+.image-link-work {
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+}
+
+
+.image-work-space {
+    margin-top: 30%;
+    opacity: 0;
+
+    transition: 0.8s;
+    
+}
+.image-work-space:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* ---------------------------------------------------PAGE 2 --------------------------------------------------- */
+.h2-music {
+
+    z-index: 0;
+    
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 12%;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+.producer {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.beats {
+    border: solid 2px black;
+    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+.ligne-beat {
+    margin-top: 2%;
+}
+
+.display-song {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: black;
+    align-items: left;
+}
+
+.text-beat {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-circle-play {
+    font-size: 2em;
+    padding-top: 50%;
+    padding-left: 100%;
+
+}.fa-circle-play:hover {
+    opacity: 50%;
+}
+
+.link-beat {
+    color: rgb(5, 1, 43);
+}
+
+
+
+/* ----------------------------------FOOter---------------------------------------- */ 
+
+.nav-bar-footer {
+   
+        background-color: black;
+       
+        width: 100%; 
+        
+        display: flex;
+        justify-content: space-between;
+        background-size: cover ;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        z-index: 1;
+    
+}
